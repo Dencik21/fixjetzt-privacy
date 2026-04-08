@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impressum – FixJetzt</title>
-
   <style>
     body {
       margin: 0;
@@ -15,9 +14,31 @@
     }
 
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: 0 auto;
       padding: 40px 20px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .nav a {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: #1e293b;
+      color: #93c5fd;
+      text-decoration: none;
+      font-size: 14px;
+      transition: background 0.2s ease;
+    }
+
+    .nav a:hover {
+      background: #334155;
     }
 
     h1 {
@@ -51,7 +72,7 @@
       border-radius: 16px;
       padding: 20px;
       margin-top: 20px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
     }
 
     .footer {
@@ -67,13 +88,18 @@
     }
   </style>
 </head>
-
 <body>
   <div class="container">
+    <div class="nav">
+      <a href="./">Datenschutz</a>
+      <a href="./impressum.html">Impressum</a>
+      <a href="./agb.html">AGB</a>
+    </div>
+
     <h1>Impressum</h1>
 
     <div class="card">
-      <p>Angaben gemäß § 5 TMG</p>
+      <p>Angaben gemäß § 5 DDG</p>
     </div>
 
     <h2>Anbieter</h2>
@@ -90,9 +116,10 @@
       <p><span class="label">E-Mail:</span>
         <a href="mailto:supportfixjetzt@gmail.com">supportfixjetzt@gmail.com</a>
       </p>
+      <p><span class="label">Telefon:</span> 01793908596</p>
     </div>
 
-    <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+    <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
     <div class="card">
       <p>
         Denys Ilchenko<br>
@@ -105,9 +132,8 @@
     <h2>Hinweis</h2>
     <div class="card">
       <p>
-        FixJetzt ist eine Plattform zur Vermittlung von Dienstleistungen
-        zwischen Kund:innen und Anbieter:innen. Die Plattform übernimmt
-        keine Verantwortung für die Durchführung der angebotenen Dienstleistungen.
+        FixJetzt ist eine Plattform zur Vermittlung von Dienstleistungen zwischen Kund:innen und Anbieter:innen.
+        Die Plattform übernimmt keine Verantwortung für die konkrete Durchführung der angebotenen Dienstleistungen.
       </p>
     </div>
 
